@@ -1,0 +1,33 @@
+p{
+    color: blue;
+    text-align: justify;
+}
+.lo{
+    color: aqua
+    ;
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url("");
+}
+h3 mark{
+    font-size: 50px;
+}
+.revision{
+    text-decoration:underline ;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-align:;
+}
+h4{
+    border: 3PX red solid;
+    margin-right:850px;
+    padding: 15;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: darksalmon;
+}

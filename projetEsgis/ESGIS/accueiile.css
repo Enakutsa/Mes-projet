@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(235, 234, 246);
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 00 5px 2px rgb(175, 172, 172) ;
+    margin-top: -15px;
+    margin-left: -9px;
+}
+#Logo{
+    width: 150px;
+}
+a{
+    
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    box-sizing: border-box;
+    
+}
+nav{
+   
+    display: flex;
+    position: fixed;
+    margin-top: -90px;
+    margin-left: 745px;
+}
+#connexion{
+    position: absolute;
+    font-size: 29px;
+   margin-left: -35px ;
+   margin-top: -5px;
+   color: red;
+
+   
+}
+#color{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+.ma-section{
+    background-image: url(Image/Etudiant.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 320px;
+
+}
+.ma-section h1{
+    color: white;
+    font-size: 5rem;
+    margin-left: 10px;
+}
+.ma-section button{
+    background-color: #daa520c1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+
+}
+.div1{
+    font-size: 20px;
+    font-family: poppins;
+    width: 120%;
+    margin-left: 95px;
+    margin-top: 75px;
+    color: #787878;
+    font:status-bar
+
+}
+.div1 button{
+    background-color: red;
+    color: white;
+    padding-right: 45px ;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#Question{
+    color: black;
+    font-size: 45px;
+}
+.section2{
+    display: flex;
+    
+
+}
+.div2{
+   
+    margin-left: 645px ;
+    margin-top: -1%;
+}
+#Aide{
+    background-color: #a1b2ff;
+    padding: 25px;
+    padding-left: 82px;
+    padding-right: 282px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    color: white;
+
+}
+#Programme{
+    background-color: rgb(22, 22, 118) ;
+    padding: 25px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-top: -17px;
+    color: white;
+
+}
+#Service{
+    background-color: rgb(30, 73, 147);
+    padding: 25px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-top: -20px;
+    color: white;
+
+} 
+#ratio{
+    position: relative;
+    display: flex;
+    padding: 1px;
+    margin-left: 5px;
+}
+#element{
+    padding: 5px;
+    margin-left: 25px;
+
+}
+#pourcentages{
+    display: flex;
+}
+/* pegagogie*/
+
+section{
+    margin-top: 40px;
+   
+   
+}
+.ma-section1{
+    background-image: url(Image/egis.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 320px;
+
+}
+.ma-section1 h1{
+    font-size: 70px;
+    text-align: center;
+    color:#fff;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    
+   
+
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .grid-item h1{
+    margin-right: 150px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  hr{
+    width:30px ;
+  }
+  button{
+    align-items:left;
+    border: 1px solid red;
+    background-color: transparent;
+    margin-top: 265px;
+   margin-left: -10px;
+    padding: 8px;
+    color: white;
+
+   
+  }
+  button:hover{
+    background-color: red;
+  }
+
+ /* css pour les options*/
+
+ .section-option{
+    background-color: white;
+    text-align: center;
+    padding: 200px;
+    font-size: 40px;
+    color: rgb(60, 60, 104);
+   
+   }
+   @media screen and(max-width:100%) {
+     
+   }
+   .option1 h1{
+    margin-top: -100px;
+   }
+   
+   table{
+
+   margin-top: 400px;
+    border: 1px blue solid;
+    border-collapse:collapse;
+   
+ 
+   }
+
+   tr,td {
+    border: 1px blue solid;
+    width:5000px;
+    height: 1px;
+    padding: 50px;
+    border-collapse: collapse;
+   }
+   table h5{
+    color: red;
+   }
+   table p{
+    font-size: 25px;
+    text-align: justify;
+   }
+
+ 
+
+ 

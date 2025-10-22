@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+  }
+  
+  body {
+    
+  font-family: Arial, sans-serif;
+  }
+  
+  header {
+   
+     background-color: rgba(0, 0, 0, 0.6);
+     color: white;
+     padding: 20px;
+     position: sticky;
+    top: 0;
+  z-index: 10;
+  }
+  
+  
+  
+  .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  .navbar .logo h1 {
+  font-size: 30px;
+  }
+  
+  
+
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  
+  
+  nav ul li {
+margin: 0 20px;
+  }
+  
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  nav a:hover{
+    color: rgb(139, 18, 18);
+  }
+  
+  .hero {
+    background-image: url('image/images\ \(1\).jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+  font-size: 50px;
+  }
+  
+  
+  .hero p {
+font-size: 20px;
+margin: 20px 0;
+  }
+  
+  .hero button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+     background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #cc5200;
+     }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+    
+  
+  
+  .product-list {
+    display: flex;
+  justify-content: center;
+    gap: 20px;
+  flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 250px;
+  border: 1px solid #ddd;
+  padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ text-align: center;
+  }
+  
+  
+  
+  .product-card img {
+    width: 100%;
+   height: auto;
+    border-radius: 10px;
+  
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-top: 15px;
+ }
+ 
+  
+  
+  
+  
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ 
+}
+
+.product-card button:hover {
+      
+    background-color: #218838;
+  }
+    
+  .promotion {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}  
+  
+  
+  .promotion-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  }
+  .promotion-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .promotion-card button {
+    padding: 12px 25px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+     transition: background-color 0.3s;
+  }
+  
+    
+   
+  .promotion-card button:hover {
+    background-color: #cc5200;
+}
+    
+ 
+
+  /* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* En-tête */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .panier button {
+  background-color: #ff7f50;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header .panier button:hover {
+  background-color: #ff6347;
+}
+
+/* Catalogue */
+.catalogue {
+  padding: 20px;
+}
+
+.catalogue h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Mise en page en grille */
+.produits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 produits par ligne */
+  gap: 20px; /* Espace entre les produits */
+  justify-items: center; /* Centrer les produits dans chaque cellule */
+}
+
+.produit {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 250px; /* Limiter la largeur des produits */
+}
+
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produit h3 {
+  margin-top: 15px;
+  font-size: 18px; /* Taille de texte un peu plus grande pour les titres */
+}
+
+.produit .prix {
+  color: #ff6347;
+  font-size: 20px; /* Augmenter la taille du prix */
+  margin-top: 10px;
+}
+
+.produit button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px; /* Augmenter la taille du bouton */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px; /* Taille du texte du bouton */
+}
+
+.produit button:hover {
+  background-color: #45a049;
+}
+
+/* Panier modal */
+.panier-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.panier-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.panier-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.panier-content ul li {
+  margin: 10px 0;
+}
+
+.panier-total {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#fermerPanier {
+  background-color: #ff7f50;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}#EnvoyerPanier{
+  background-color: #ff7f50;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#fermerPanier:hover {
+  background-color: #ff6347;
+}
+  
+  
+/* Section Contact */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+        }
+        .contact-form {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 50%;
+            max-width: 600px;
+        }
+        .contact-form h1 {
+            color: #333;
+            font-size: 24px;
+            text-align: center;
+        }
+        .contact-form input, .contact-form select, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-left: 50px;
+            width: 40%;
+        }
+        .contact-info p {
+            font-size: 16px;
+            color: #555;
+        }
+        .contact-info h2 {
+            font-size: 20px;
+            color: #333;
+        }
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #007bff;
+  transform: translateY(-2px);
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+  

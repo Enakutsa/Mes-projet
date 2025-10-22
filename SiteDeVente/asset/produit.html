@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="acceuil.html" class="nav-link">Accueil</a></li>
+                <li><a href="produit.html" class="nav-link">Produits</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="localisation.html" class="nav-link">Localisation</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!-- SECTION PRODUITS -->
+<section id="produits" class="section produits">
+    <div class="container">
+        <h2>Nos Produits</h2>
+       <marquee behavior="" direction=""><p> Découvrez nos produits exclusifs à des prix compétitifs. Ajoutez-les à votre panier et passez commande facilement !</p></marquee>
+
+        <!-- Grille de produits -->
+        <div class="grid-produits">
+            <!-- Produit 1 -->
+            <div class="produit">
+                <img src="/image/ordi.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Prix : 300000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 1" data-prix=" 300000f">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="produit">
+                <img src="/image/cle.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Prix :20000f </p>
+                <button class="btn-ajouter-panier" data-produit="Produit 2" data-prix="20000f">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="produit">
+                <img src="/image/disque.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Prix : 200000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="200000f">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/ordii.jpg" alt="Produit 3">
+                <h3>Produit 4</h3>
+                <p>Prix : 500000F</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="500000F">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/imprimante.jpg" alt="Produit 3">
+                <h3>Produit 5</h3>
+                <p>Prix : 30000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="30000f">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/ordi.jpg" alt="Produit 3">
+                <h3>Produit 6</h3>
+                <p>Prix : 150000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="150000f">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/ordii.jpg" alt="Produit 3">
+                <h3>Produit 7</h3>
+                <p>Prix :100000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="100000f">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/proc.jpg" alt="Produit 3">
+                <h3>Produit 8</h3>
+                <p>Prix : 500000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix="500000f">Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="/image/souris.jpg" alt="Produit 3">
+                <h3>Produit:9</h3>
+                <p>Prix : 3000f</p>
+                <button class="btn-ajouter-panier" data-produit="Produit 3" data-prix=" 3000f">Ajouter au panier</button>
+            </div>
+        </div>
+
+        <!-- Section Panier -->
+        <div id="panier" class="panier">
+            <h3>Votre Panier</h3>
+            <ul id="liste-panier">
+                <!-- Les produits ajoutés au panier apparaîtront ici -->
+            </ul>
+            <p id="total-panier">Total : 0f</p>
+            <button id="commander-btn" class="btn-primary">Passer commande</button>
+        </div>
+    </div>
+</section>
+
+     <script src="vente.js"></script>
+
+</body>
+</html>

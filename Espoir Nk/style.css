@@ -1,0 +1,217 @@
+*,
+*::after,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li::selection,
+a::selection figure::selection,
+img::selection,
+img::-moz-selection {
+    background: transparent;
+    color: inherit;
+}
+
+
+body {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    background: #00000029;
+    padding: 1rem;
+    border-radius: 32px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 24px;
+}
+
+#accueil_link,
+#fraise_link,
+#brocoli_link,
+#cafe_link {
+    background-color: #fff;
+    color: #000;
+}
+
+main {
+    padding: 2em;
+    height: max-content;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 70%;
+}
+
+.gallery {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.gallery {
+    margin: 40px auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    transition: all 0.4s;
+}
+
+figure img:hover {
+    scale: 0.9;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.container div {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container div li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container img {
+    max-width: 40%;
+    height: auto;
+}
+
+@media only screen and (max-width: 640px) {
+
+    h1 {
+        font-size: 32px;
+        font-weight: 800;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    nav {
+        position: relative;
+        width: fit-content;
+        display: flex;
+        background: #00000029;
+        border-radius: 32px;
+        padding: 1rem 0.4rem;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        gap: 0px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0;
+    }
+
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-around;
+    }
+
+    .container div {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container div li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container li {
+        font-size: 20px;
+    }
+
+}

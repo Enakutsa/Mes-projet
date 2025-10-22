@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+
+
+function Banner() {
+const title = "La maison jungle"
+  return (<h1>{title.toUpperCase()}</h1>)
+}
+
+function Cart() {
+const monsteraPrice = 8
+const ivyPrice = 10
+const flowerPrice = 15
+return (<div>
+    <h2>Panier</h2>
+    <ul>
+    <li>Monstera : {monsteraPrice}€</li>
+     <li>Lierre : {ivyPrice}€</li>
+     <li>Fleurs : {flowerPrice}€</li>
+    </ul>
+      Total : {monsteraPrice + ivyPrice + flowerPrice }€
+      </div>)
+}
+
+ReactDOM.render(<div><Banner /><Cart /></div>, document.getElementById('root'))
+
+    </script>
+
+
+
+</body>
+</html>

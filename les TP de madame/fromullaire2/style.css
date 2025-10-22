@@ -1,0 +1,52 @@
+.div9{
+    margin-top: 40px;
+
+}
+.div8{
+    margin-top: 20px;
+}
+.div7{
+    margin-top: 20px;
+}
+.div6{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 20px;
+}
+.div4{
+    margin-top: 20px;
+    display: flex;
+}
+.pa{
+    margin-left: 105px;
+}
+.div3{
+    margin-top: 20px;
+}
+.div2{
+    margin-top: 20px;
+}
+.div1{
+    margin-top: 20px;
+}
+
+#nom{
+    margin-left: 100px;
+}
+#prenom{
+    margin-left: 80px;
+}
+#mail{
+    margin-left: 95px;
+}
+#photo{
+    margin-left: 92px;
+}
+#select{
+    margin-left: 100px;
+}
+#submit{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,71 @@
+
+#tof1{
+    margin-left: 5px;
+}
+.section{
+    width: 200px;
+    padding: 100px;
+    border-radius: 22px;
+    border-color: #000000;
+    border: 1px solid;
+    margin-left: 655px;
+    margin-top: -550px;
+    padding-bottom: 200px;
+    padding-right: 180px;
+    text-align: center;
+   
+    
+    
+}
+input{
+    width: 275px;
+    padding: 6px;
+    margin: 5px;
+}
+button{
+    width: 290px;
+    padding: 6px;
+    margin: 10px;
+    margin-left: 5px;
+    background-color: #0000ff98;
+    color: #fff;
+    font-size: bold;
+    border-radius: 5px;
+    
+}
+h1{
+    font-style: italic;
+    margin-top: 35px;
+    margin-left: 40px;
+
+}
+
+hr{
+    width: 125px;
+    margin-right: 995px;
+
+}
+p{
+    margin-top: -20px;
+    margin-left: 4px;
+}
+#trait{
+    margin-left: 175px;
+    margin-top: -25px;
+}
+#Fece{
+    width: 25px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+#password{
+    margin-left: 75px;
+}
+#or{
+    margin-left: 100px;
+}
+.ri-facebook-box-fill{
+    position: relative;
+    margin-left: 5px;
+    text-align: center;
+}

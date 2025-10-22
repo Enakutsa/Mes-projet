@@ -1,0 +1,198 @@
+/* * prend toute la page en compte */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* ici j ai defini la police , couleur de fond  */
+body {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    
+}
+/* j ai mis les lien ds deux div pour les mettre horizontalement on utilise displays flex , la taille, image de font */
+nav{
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(240, 227, 227);
+    padding: 5px;
+    justify-content: space-between;
+    position: fixed;
+}
+/* deplacement vers l agauche */
+.nav1{
+    margin-left: 20px;
+}
+/* permet a ligne qui est sous le lien de disparaitre */
+.nav1 a{
+    text-decoration: none;
+}
+
+.nav1 a {
+    white-space: nowrap;
+}
+
+/* deplacement vers l agauche */
+.nav2{
+    gap: 200px;
+    flex-wrap: nowrap
+}/* permet a ligne qui est sous le lien de disparaitre ,couleure noire*/
+.nav2 a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+
+    
+}
+/* si tu mets le curseur sur les lien ca prend cette couleur */
+a:hover{
+    color:  #e2336b;;
+}
+ /* haut bas droite agauchre aurons un espase de 2rem et height: max-content: Hauteur ajustée au contenu */
+main {
+    padding: 2em;
+    height: max-content;
+}
+/* le font , a gauche, largeur maximum, la rodreur des borne,fait resortir une bordure bien jolie */
+#text{
+    background: white;
+    margin-left: 2rem ;
+    padding: 1rem 2rem;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    color: #4CAF50;
+    transition: 1s;
+}
+#text:hover{
+    scale: 0.9;
+}
+
+/* la taille */
+h1 {
+    font-size: 40px;
+   
+ }
+ /* ecrire un mot avec trois couleur en meme temp */
+.div1 h1{
+    text-shadow:  1px 2px 3px red ;
+}
+.div1 h2{
+    text-shadow:  1px 2px 3px blue ;
+} 
+.div2 h1{
+    text-shadow:  1px 2px 3px red ;
+}
+.div2 h2{
+    text-shadow:  1px 2px 3px blue ;
+} 
+.div3 h1{
+    text-shadow:  1px 2px 3px red ;
+}
+.div3 h2{
+    text-shadow:  1px 2px 3px blue ;
+} 
+
+/* aligner horizontalement , taille espace  */
+.image {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+/* centrer  */
+.image {
+    margin: 40px auto;
+    text-align: center;
+}
+/* hauteur et largeur maximum */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* la transition genre la lenteur si on met le curseur dessus */
+div img {
+    transition: all 0.5s;
+}
+/* ca permet quand on met le curseur l image bouge  */
+ img:hover {
+    scale: 0.9;
+}
+/* largeur, deplacement automatique , la couleur de font, et flex wrap :es éléments flexibles sont forcés sur une seule ligne ou peuvent être enroulés sur plusieurs lignes. */
+.section {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+/* tt abord on fait reference au div ds la section , alignement , largeur maximum, direction,et gap :l'espace entre les éléments dans des mises en page CSS en utilisant des grilles ou des flexbox. */
+.section div {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* appele a l image de la section en lui donnant la largeur et hauteur */
+.section img {
+    max-width: 40%;
+    height: auto;
+}
+/* reference aux h1 et h2 en lui demandant de monter */
+.section1 h1,h2{
+    margin-bottom: 40px;
+}
+/* alignement , a droite et en bas  */
+.section1{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+/* image section 1 largeur 80% */
+ .section1 img{
+    width: 80%;
+}
+/* * reference aux h1 et h2 en lui demandant de monter */
+.section2 h1,h2{
+    margin-bottom: 30px;
+}
+
+/* alignement , a droite et en bas  */
+.section2{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+/* image section 1 largeur 80% */
+ .section2 img{
+    width: 80%;
+}
+/* * reference aux h1 et h2 en lui demandant de monter */
+.section3 h1,h2{
+    margin-bottom: 30px;
+}
+/* alignement , a droite et en bas  */
+.section3{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+/* lareur et desendre */
+ .section3 img{
+    width: 80%;
+    margin-top: 35px;
+}
+
+
+

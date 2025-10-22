@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de Produits Informatiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">Vente en ligne</div>
+  
+    <nav>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="produit.html">Produits</a></li>
+          <li><a href="">contact</a></li>
+          <li><a href="">localisation</a></li>
+        </ul>
+    </nav>
+        <div class="panier">
+            <button id="panierBtn">Panier (<span id="panierCount">0</span>)</button>
+        </div>
+
+       
+    </header>
+
+    <main>
+        <section class="catalogue">
+            <h2>Nos Produits</h2>
+            <div class="produits">
+                <!-- Exemple de produit -->
+                <div class="produit">
+                    <img src="image/N2.jpg" alt="Ordinateur portable">
+                    <h3>Ordinateur Portable</h3>
+                    <p>Puissant, léger, et performant.</p>
+                    <p class="prix">150000f</p>
+                    <button class="ajouter-panier" data-id="1" data-name="Ordinateur Portable" data-price="150000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/souris.jpg" alt="Souris sans fil">
+                    <h3>Souris sans fil</h3>
+                    <p>Puissant.</p>
+                    <p class="prix">3000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="Souris sans fil" data-price="3000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/imprimante.jpg" alt="imprimante">
+                    <h3>buro</h3>
+                    <p class="prix">50000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="imprimante" data-price="50000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/buro.jpg" alt="buro">
+                    <h3>buro</h3>
+                    <p>Précise et puisant.</p>
+                    <p class="prix">200000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="buro" data-price="200000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/cle.jpg" alt="cle">
+                    <h3>cle</h3>
+                    <p>Précise.</p>
+                    <p class="prix">20000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="les cles" data-price="20000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/n1.jpg" alt="ordinateur">
+                    <h3>ordinateur</h3>
+                    <p>performant.</p>
+                    <p class="prix">500000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="ordinateur" data-price="500000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/N2.jpg" alt="ordinateur">
+                    <h3>ordinateur New</h3>
+                    <p>Fiable</p>
+                    <p class="prix">300000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="ordinateur" data-price="300000">Ajouter au panier</button>
+                </div>
+                <div class="produit">
+                    <img src="image/proc.jpg" alt="processeur">
+                    <h3>processuer</h3>
+                    <p>Précise.</p>
+                    <p class="prix">150000f</p>
+                    <button class="ajouter-panier" data-id="2" data-name="processeur" data-price="49">Ajouter au panier</button>
+                </div>
+                <!-- Ajoute d'autres produits ici -->
+            </div>
+        </section>
+        
+        <section id="panierModal" class="panier-modal">
+            <div class="panier-content">
+                <h2>Mon Panier</h2>
+                <ul id="panierList"></ul>
+                <div class="panier-total">
+                    <strong>Total : </strong><span id="totalPrice">0f</span>
+                </div>
+                <button id="fermerPanier">Fermer</button>
+                <button id="EnvoyerPanier">Envoyer</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>

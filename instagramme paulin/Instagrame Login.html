@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagrame Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="fonts/remixicon.css">
+    <script>
+        window.onload = function() {
+            document.getElementById("connexion").addEventListener("submit", function(event) {
+                event.preventDefault(); 
+                window.location.href = "Accuielle/accueille.html";
+            });
+        };
+    </script>
+</head>
+<body>
+    
+    <img src="screenshot3.png" alt="oups" id="tof1" >
+    <img src="screenshot4.png" alt="oups" id="tof1">
+
+
+    <form  id="connexion">
+        <div class="section">
+            <h1>𝓘𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶</h1>
+
+            <input type="text" placeholder="Numéro de téléphone ou email" required>
+            <input type="password" placeholder="Mots de passe " required>
+
+            <button type="submit">Se connecter</button>
+            
+            <hr> 
+            <p id="or">
+                ou
+            </p>
+            <hr id="trait">
+            <div id="Mode">
+                <i class="ri-facebook-box-fill"></i> <a href="">Contunier avec facebook ?</a>
+            <i class="ri-google-line"></i> <a href="">Contunier avec google ?</a>
+            <a href="">Mots de passe oublié ?</a>
+
+            </div>
+           
+
+
+
+        </div>
+    </form>
+</body>
+</html>

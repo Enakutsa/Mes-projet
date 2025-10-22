@@ -1,0 +1,32 @@
+
+*{
+    font-family: roboto sans-serif;
+}
+
+.section1{
+    display: flex;
+}
+.div1{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+h2.discover input{
+    background-color: yellow;
+    font-size: 20px;
+}
+#photo{
+    margin-left: 250px;
+    width: 500px;
+    height:500px;
+}
+.section2{
+    display: flex;
+
+}
+.section2 h2 .div5{
+    text-align: justify;
+}
+pre{
+    padding-bottom: -50px;
+}

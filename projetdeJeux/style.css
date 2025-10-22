@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* En-tête */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Section principale */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Zone de jeu */
+.game-area {
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+}
+
+/* Contrôles du jeu */
+.game-controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#gameInfo {
+    display: flex;
+    align-items: center;
+}
+
+#gameInfo p {
+    margin: 0 20px 0 0;
+}
+
+#startButton, #pauseButton, #resetButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#startButton:hover, #pauseButton:hover, #resetButton:hover {
+    background-color: #0056b3;
+}
+
+/* Ressources */
+.resources {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.resources h2 {
+    margin-top: 0;
+}
+
+#resourceList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resourceList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Images et audio cachés */
+.hidden-images,
+.hidden-audio {
+    display: block;
+}

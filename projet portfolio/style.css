@@ -1,0 +1,109 @@
+ 
+ *{
+    font-family: Verdana, Tahoma, sans-serif;
+ }
+ body{
+background-color: black;
+}
+main{
+    margin-left:200px;
+    margin-right: 200px;
+background-image: url("image/port.jpeg");
+background-attachment: fixed;
+   
+}
+main:hover{
+    scale: 0.9;
+    transition: 1s;
+}
+header{
+    font-size: 20px;
+    display: flex;
+    
+}
+div a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+}
+nav{
+    margin-left: 600px;
+    
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+ color: blue;
+}
+section{
+    margin-top: 100px;
+}
+h1{
+    color: white;
+}
+h2{
+    color:blue;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+    align-items: first baseline;
+}
+.div{
+  margin-left: 50px;
+  box-shadow: 0 0  30px white;
+  margin-right: 600px;
+}
+#button{
+    margin-top: 50px;
+}
+.btn{
+    border: 1px blue solid;
+     padding: 10px;
+    border-radius:5px;
+    font-size: 15px;
+   }
+   #Let{
+    margin-left: 20px;
+   }
+
+   #Hire:hover{
+    background-color: blue;
+   }
+   #Let:hover{
+    background-color: blue;
+   }
+
+  img{
+      
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      
+    }
+    .image{
+        display: flex;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .div1{
+        margin-left: 15px;
+    }
+    .div2{
+  margin-left: 20px;
+    }
+    .div3{
+      margin-left: 25px;
+    }
+    
+
+   

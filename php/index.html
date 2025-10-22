@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>espoir contact </h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+            
+        
+        </form>
+        <h1> Mode</h1>
+<label class="switch">
+   <input type="checkbox" class="darkmode--toggle" id="darkmode--toggle__mobile">
+   <span class="change round"></span>    
+   </label>
+ </div>
+
+    </div>
+    <script>
+        let darkMode = localStorage.getItem('darkMode');
+const darkModeToggle = document.querySelectorAll('.darkmode--toggle');
+let triggerMobile = document.querySelector("#darkmode--toggle__mobile");
+
+
+const enableDarkMode = (e) => {
+document.body.classList.add("darkmode");
+triggerMobile.checked = true;
+localStorage.setItem("darkMode", "enable");
+};
+
+const disableDarkMode = (e) =>{
+document.body.classList.remove("darkmode");
+localStorage.setItem("darkMode", null);
+};
+
+if (darkMode === 'enable'){
+enableDarkMode();
+}
+for(let i = 0; i < darkModeToggle.length; i++){
+darkModeToggle[i].addEventListener('click', (e) => {
+darkMode = localStorage.getItem("darkMode");
+if (darkMode !== 'enable'){
+enableDarkMode();
+}else {
+disableDarkMode();
+}
+});
+};
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Bienvenue chez Fast Food Express</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="commande.html">Commander</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Découvrez nos délicieux plats !</h2>
+        <p>Un large choix de burgers, pizzas, et bien plus encore.</p>
+    </section>
+    
+    <section>
+
+        <h2>Passer une commande</h2>
+        <form action="submit_order.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="meal">Plat :</label>
+            <select id="meal" name="meal" required>
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+                <option value="sandwich">Sandwich</option>
+            </select>
+            
+            <label for="quantity">Quantité :</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            
+            <button type="submit">Commander</button>
+        </form>
+    </section>
+
+  
+    
+</body>
+</html>

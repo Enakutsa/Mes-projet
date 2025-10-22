@@ -1,0 +1,52 @@
+h1{
+    text-align:center;
+    text-decoration:underline;
+  }
+  .section{
+    display:flex;
+    margin:25px;
+  }
+  .div2{
+    margin-left:300px;
+  }
+  .titre{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  
+  table{
+    border:solid 1px blue;
+    border-collapse:collapse;
+      
+  }
+  thead,tbody{
+    
+  }
+  th,td{
+    border:solid 1px blue;
+    font-size:16px;
+    padding:30px;
+  }
+    
+  h2{
+    text-align:center;
+  }
+  .titre2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin: 2px 350px;
+    
+  }
+  .t2{
+  margin-top: 5%;
+  
+  }
+  
+    
+  
+  
+  
+     
+  

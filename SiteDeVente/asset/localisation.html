@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="acceuil.html" class="nav-link">Accueil</a></li>
+                <li><a href="produit.html" class="nav-link">Produits</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="localisation.html" class="nav-link">Localisation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- SECTION LOCALISATION -->
+<section id="localisation" class="section localisation">
+    <div class="container">
+        <h2>Où nous trouver ?</h2>
+        <p>Nous sommes situés à cet endroit. Vous pouvez nous rendre visite ou nous contacter pour plus d'informations.</p>
+
+        <!-- Carte Google Maps -->
+        <div id="map" class="map"></div>
+
+        <!-- Informations supplémentaires -->
+        <div class="informations">
+            <h3>Adresse</h3>
+            <p>Rue 123, Esgis Avedji, Togo</p>
+            <p> Tel  70164340 /96458723</p>
+
+            <h3>Horaires d'ouverture</h3>
+            <ul>
+                <li>Lundi - Vendredi : 9h - 18h</li>
+                <li>Samedi : 10h - 16h</li>
+                <li>Dimanche : Fermé</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- API Google Maps -->
+<script src="vente.js"></script>
+<!-- API Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+
+
+</body>
+</html>

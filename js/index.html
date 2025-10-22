@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Releve de Notes</h1>
+  
+<section class="section"> 
+<div class="div1">
+       
+<div class="titre">
+   <h2>Numero d inscription       
+ :</h2>
+  <span id ="numero"></span>
+</div>
+      
+<div class="titre"> <h2>Nom        : </h2>
+<span id='nom'></span></div>
+<div class="titre"><h2>Prenom : </h2>
+      <span id="prenom">       
+ </span>
+  </div>
+      
+ <div class="titre"><h2>Addresse : </h2>
+        <span id="addresse"> 
+   </span>
+          
+        </div>
+</div>
+  <div class="div2">
+    
+  <div class="titre"> <h2>Groupe : </h2>
+  <span id="groupe"></span>
+    </div>
+ <div class="titre">  <h2>niveau : </h2>
+<span id="niveau"></span>
+      
+    </div>
+ <div class="titre"><h2>annee scolaire :</h2><span id="annee"></span></div> 
+    
+    </div>
+  
+ </section>
+    <section>
+  
+    <table align="center">
+    <thead>
+      <tr>
+        <th>Matiere</th>   
+          <th>Coefficient</th>  
+          <th>Note</th>  
+      </tr>
+    
+      <tr>
+       <div class="titre2"> <td>philo</td>
+         <td>4</td>  
+           <td><span id="philo"></td>
+      </tr>
+     <tr>
+        <td>francais</td>
+          <td>3</td>  
+       <td><span id= "francais"></span></td>
+      </tr>
+ 
+      <tr>
+        <td>math</td>
+          <td>1</td>  
+        <td><span id="math"></span></td>
+      </tr>
+      <tr>
+        <td>physique</td>
+        <td>1</td>
+        <td><span id="physique"></span></td>
+      </tr>
+      <tr>
+        <td>anglais</td>
+        <td>3</td>
+        <td><span id="anglais"></span></td>
+    </tr>
+      <tr>
+        <td>histogeo</td>
+        <td>3</td>
+        <td><span id ="histogeo"></span></td>
+      </tr>
+      <tr>
+        <td>svt</td>
+        <td>1</td>
+        <td><span id="svt"></span></td>
+      </tr>
+      <tr>
+        <td>ECM</td>
+        <td>2</td>
+        <td><span id="ECM"></span></td>
+      </tr>
+      
+        
+
+    </thead>
+  </table>
+  </section>
+  <section>
+    
+    <div class="titre2"><h2>moyenne generale :</h2><span id="moyenne"></span></div>
+    
+    <div class="titre2"><h2>Mention : </h2> <span id="mention"></span></div>
+    
+  </section>
+  
+  <section>
+    <div class="titre2 t2">
+      <h2>Directeur:</h2><span id="directeur"></span>
+    </div>
+    
+    
+    
+  </section>
+  <script>
+    const releve = [ 2093 , " enakutsa  " , " kokou espoir  " , 96458723 , 2 ,  " terminal " , 2022 ,  ] ;
+
+const note = [ 10 , 8 ,0 , 8 , 18 , 11 , 12 , 14 ,   " passable " ,  " KARBOU aristide " ,   ] ;
+
+let Numerodincription = releve [0] ;
+let Nom = releve [1] ;
+let prenon = releve[2] ;
+let addresse = releve [3];
+let groupe  = releve [4] ;
+let niveau  = releve [5] ;
+let annee  = releve  [6] ;  
+
+let philo = note[0] ;
+let francais = note[1] ;
+let math     = note[2] ;
+let physique = note[3] ;
+let anglais  = note[4] ;
+let histogeo = note[5] ;
+let svt      = note[6] ;
+let ECM      = note[7] ;
+
+let ph = philo * 4 ;
+let fr = francais * 3 ;
+let mat = math  * 1   ;
+let phy = physique * 1 ;
+let ang = anglais * 3  ;
+let his = histogeo * 3 ;
+let sv = svt    *  1  ;
+let EC = ECM * 2  ;
+
+let somme = ph + fr + mat + phy + ang + his + sv + ECM ;
+
+let moyenne = somme / 18 ;
+
+
+
+
+
+
+
+console.log("le numero d inscription est" , releve[0]) ;
+console.log("mon nom est" , releve[1]) ;
+console.log("mon prenom est " , releve[2]) ;
+console.log("mon adresse est" ,releve[3]) ;
+console.log("je suis dans le groupe" , releve[4]) ;
+console.log("je suis en class de " , releve[5]) ;
+console.log("annee" ,releve[6]) ;
+console.log("la note de philo est" , ph ) ;
+console.log("la note de fr est ", fr ) ;
+console.log("la note de math est",mat);
+console.log("la note de physique est ", phy) ;
+console.log("la note d anglais est ",ang) ;
+console.log("la note de histogeo est ",his) ;
+console.log("la note de svt est",sv) ;
+console.log("la note de ECM est ",EC) ;
+console.log("la somme est =",somme) ;
+console.log("la moyenne est=",moyenne) ;
+
+
+
+document.getElementById("philo").innerHTML = note[0] ;
+document.getElementById("francais").innerHTML = note[1] ;
+document.getElementById("math").innerHTML = note[2] ;
+document.getElementById("physique").innerHTML =note[3] ;
+document.getElementById("anglais").innerHTML = note[4] ;
+document.getElementById("histogeo").innerHTML = note[5] ;
+document.getElementById("svt").innerHTML = note[6] ;
+document.getElementById("ECM").innerHTML = note[7] ;
+document.getElementById("moyenne").innerHTML = moyenne ;
+document.getElementById("mention").innerHTML = note[8] ;
+document.getElementById("directeur").innerHTML = note[9] ;
+
+
+document.getElementById("nom").innerHTML = releve[1] ;
+
+document.getElementById("prenom").innerHTML = releve[2] ;
+document.getElementById("numero").innerHTML = releve[0] ;
+document.getElementById("addresse").innerHTML = releve[3] ; 
+document.getElementById("groupe").innerHTML = releve[4] ;
+document.getElementById("niveau").innerHTML = releve[5] ;
+document.getElementById("annee").innerHTML = releve[6] ;
+
+
+
+
+
+
+
+  </script>
+    
+    
+</body>
+</html>

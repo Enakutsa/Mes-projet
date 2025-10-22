@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Super Jeu de Survie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- En-tête du jeu -->
+    <header>
+        <h1>Mon Super Jeu de Survie</h1>
+    </header>
+
+    <!-- Section principale du jeu -->
+    <main>
+        <!-- Zone de jeu -->
+        <section class="game-area">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </section>
+
+        <!-- Section de contrôle et d'information -->
+        <section class="game-controls">
+            <div id="gameInfo">
+                <p>Score: <span id="score">0</span></p>
+                <button id="startButton">Démarrer le jeu</button>
+                <button id="pauseButton">Pause</button>
+                <button id="resetButton">Réinitialiser</button>
+            </div>
+        </section>
+
+        <!-- Section des ressources -->
+        <section class="resources">
+            <h2>Ressources</h2>
+            <ul id="resourceList">
+                <li>Bois: <span id="wood">0</span></li>
+                <li>Pierre: <span id="stone">0</span></li>
+                <li>Eau: <span id="water">0</span></li>
+                <li>Nourriture: <span id="food">0</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Super Jeu de Survie. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Images pour le jeu -->
+    <section class="hidden-images">
+        <img src="asset/image/espoir.jpg" alt="" id="">
+        <img src="asset/image/espoir.jpg" alt="" id="">
+    </section>
+
+    <!-- Sons pour le jeu -->
+    <section class="hidden-audio">
+        <audio id="backgroundMusic" src="asset/les son/son.mp3" loop></audio>
+        <audio id="collectSound" src=""></audio>
+        <audio id="gameOverSound" src=""></audio>
+    </section>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(235, 234, 246);
+}
+header{
+
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 00 5px 2px rgb(175, 172, 172) ;
+}
+#Logo{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+nav{
+   
+    display: flex;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 745px;
+}
+#connexion{
+    position: absolute;
+    font-size: 29px;
+   margin-left: -35px ;
+   margin-top: -5px;
+   color: red;
+
+   
+}
+#color{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+#Etudiant{
+    background-image: url(Image/Etudiant.jpg);
+}

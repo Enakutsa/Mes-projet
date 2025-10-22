@@ -1,0 +1,45 @@
+#nom{
+    margin-left: 90px;
+}
+#prenom{
+    margin-left: 72px;
+}
+#email{
+    margin-left: 79px;
+}
+
+.div4{
+    display: flex;
+}
+.P1{
+    margin-left: 86px;
+}
+#photo{
+    margin-left: 83px;
+}
+#select{
+    margin-left: 90px;
+}
+#langage{
+    margin-left: 15px;
+}
+
+.div8{
+    margin-top: 30px;
+}
+.div7{
+    margin-top: 20px;
+}
+.div6{
+    margin-top: 20px;
+}
+.div3{
+    margin-top: 20px;
+}
+.div2{
+    margin-top: 20px;
+}
+.div1{
+    margin-top: 20px;
+}
+

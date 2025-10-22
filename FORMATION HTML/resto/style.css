@@ -1,0 +1,14 @@
+body{
+    background-color:antiquewhite;
+}
+section{
+    display: flex;
+}
+.div2{
+    margin-left: 100px;
+   
+}
+#photo{
+    height: 75%;
+    background-image: url(imag/es2.jpeg);
+}

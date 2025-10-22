@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(pink,red,maroon);
+}
+div{
+    background-color: black;
+    padding: 10px;
+    width: 1000px;
+}
+div a{
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    border: 1px solid;
+    height: 350px;
+    width: 150px;
+    background-color: black;
+    margin-top: 15px;
+    float: left;
+}
+nav a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-color: white;
+    width: 850px;
+    margin-left: 165px;
+}
+footer{
+    margin-left: 160px;
+    color: white;
+}
